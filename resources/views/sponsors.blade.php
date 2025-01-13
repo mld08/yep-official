@@ -86,7 +86,7 @@
             <!-- Sponsor 2 -->
             <div class="col-md-6 col-lg-3">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
-                    <img src="{{asset('yep-assets/img/Sponsors/AGI- Sponsors.jpg')}}" alt="BADEA Logo" class="sponsor-logo mx-auto">
+                    <img src="{{asset('yep-assets/img/Sponsors/BADEA- Sponsors.jpg')}}" alt="BADEA Logo" class="sponsor-logo mx-auto">
                     <div class="card-body">
                         <h5 class="card-title">BADEA</h5>
                         <p class="card-text">Driving economic growth and sustainable development in Africa.</p>
