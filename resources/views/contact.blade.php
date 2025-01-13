@@ -9,7 +9,8 @@
     <meta name="keywords"
         content="youth empowerment, Freetown, entrepreneuriat, leadership, Sierra Leone, jeunes innovateurs, youth empowerment program">
     <title>Youth Empowerment Program | Contact</title>
-    <link rel="shortcut icon" href="{{asset('yep-assets/Logo/PNG Files/YEP - Logo Alt Transparent.png')}}" type="image/x-icon">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="{{asset('yep-assets/Logo/SVG Files/Favicon.svg')}}" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
