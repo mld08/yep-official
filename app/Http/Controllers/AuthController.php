@@ -12,9 +12,9 @@ class AuthController extends Controller
 {
     public function login(){
         /*User::create([
-            'name' => "Admin",
-            'email'=>"admin@gmail.com",
-            'password'=>bcrypt('Passer123'),
+            'name' => "admin",
+            'email'=>"support@africayep.com",
+            'password'=>bcrypt('Afr!caYep2025'),
         ]);*/
         return view('auth.login');
     }

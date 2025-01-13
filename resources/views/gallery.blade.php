@@ -23,7 +23,7 @@
     <div class="header bg-white">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="{{asset('yep-assets/Logo/SVG Files/Logo Horizontal.svg')}}" alt="" width="190">
                 </a>
                 <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"

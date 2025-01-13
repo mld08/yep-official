@@ -9,7 +9,8 @@
     <meta name="keywords"
         content="youth empowerment, Freetown, entrepreneuriat, leadership, Sierra Leone, jeunes innovateurs, youth empowerment program">
     <title>Youth Empowerment Program | Freetown 2025</title>
-    <link rel="shortcut icon" href="{{asset('yep-assets/Logo/PNG Files/YEP - Logo Alt Transparent.png')}}" type="image/x-icon">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="{{asset('yep-assets/Logo/SVG Files/Favicon.svg')}}" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -23,7 +24,7 @@
     <div class="header bg-white">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="{{asset('yep-assets/Logo/SVG Files/Logo Horizontal.svg')}}" alt="" width="190">
                 </a>
                 <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
@@ -105,7 +106,8 @@
         <div class="container">
             <div class="d-flex w-100 pt-4 row justify-content-center text-center">
                 <p class="col-md-2 mx-2"><strong>500</strong> Participants</p>
-                <p class="col-md-2 mx-2"><strong>5</strong> Workshops</p>
+                <p class="col-md-2 mx-2"><strong>9</strong> Workshops</p>
+                <p class="col-md-2 mx-2"><strong>5</strong> Breakout Session</p>
                 <p class="col-md-2 mx-2"><strong>11</strong> Speakers</p>
                 <p class="col-md-2 mx-2"><strong>Certificate Delivery</strong></p>
             </div>
@@ -117,8 +119,8 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="font-hepidova color-blue"><span class="color-pink">YOUTH</span> EMPOWERMENT PROGRAM <span
-                        class="color-pink">FREETOWN</span></h1>
+                <h1 class="font-hepidova color-blue"><span class="color-pink">SIERRA LEONE</span> YOUTH EMPOWERMENT PROGRAMME <span
+                    class="color-pink">2025</span></h1>
                 <div class="mt-3">
                     <p>The Africa Governance Institute (AGI) envisions a prosperous and stable Africa led by
                         empowered and engaged youth. Recognizing the immense potential of Sierra Leone's young
@@ -132,7 +134,7 @@
                         aims to empower young Sierra Leoneans through entrepreneurship training, mentorship, and
                         access to financial resources, fostering a generation of economically active citizens.</p>
 
-                    <a href="#" class="btn btn-register px-3 mt-2">DOWNLOAD PROGRAM</a>
+                        <a href="{{asset('yep-assets/pdf/YEP Sierra Leone 2025 - Programme.pdf')}}" class="btn btn-register px-3 mt-2">DOWNLOAD PROGRAM</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -312,6 +314,8 @@
                         aria-label="Slide 2"></button>
                     <button type="button" class="carousel-btn" data-bs-target="#carouselSpeakers" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
+                        <button type="button" class="carousel-btn" data-bs-target="#carouselSpeakers" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
                 </div>
 
                 <!-- Carrousel Items -->
@@ -328,7 +332,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -342,8 +346,8 @@
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Mouhamadou Lamine Diop</strong></h5>
-                                        <p class="card-subtitle">Founder of Large Kernel Corp</p>
+                                        <h5 class="card-title"><strong>H.E. Fatima Maada Bio</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -352,13 +356,13 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
+                                    <img src="{{asset('yep-assets/img/speakers/Margaret MANSARAY.jpeg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
+                                        <h5 class="card-title"><strong>Margaret Y. Mansaray</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -378,8 +382,23 @@
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
+                                        <h5 class="card-title"><strong>Pa Ousman Njie</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
+                                    </div>
+                                    <a href="#" class="nav-link text-end fs-3 me-3"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card px-0 mx-auto my-3"
+                                    style="width: 20rem;border-radius:20px;height: 25rem;">
+                                    <img src="{{asset('yep-assets/img/speakers/Emmanuel LAVALIE.jpeg')}}"
+                                        class="card-img-top" alt="..." width="100%" height="280"
+                                        style="border-radius: 20px 20px 0 0">
+
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title"><strong>Emmanuel Lavalie</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -393,23 +412,8 @@
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
-                                    </div>
-                                    <a href="#" class="nav-link text-end fs-3 me-3"><i
-                                            class="fa-brands fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card px-0 mx-auto my-3"
-                                    style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
-                                        class="card-img-top" alt="..." width="100%" height="280"
-                                        style="border-radius: 20px 20px 0 0">
-
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
+                                        <h5 class="card-title"><strong>Fredrick Ampiah</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -429,8 +433,8 @@
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
+                                        <h5 class="card-title"><strong>Francis Stevens Georges</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -439,13 +443,13 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
+                                    <img src="{{asset('yep-assets/img/speakers/Michael Williams.jpeg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
+                                        <h5 class="card-title"><strong>Michael Williams</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -454,13 +458,34 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
+                                    <img src="{{asset('yep-assets/img/speakers/Sadie-Sia SELLU.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Minister of Youth Affairs</p>
+                                        <h5 class="card-title"><strong>Sadie-Sia C.C Sellu</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
+                                    </div>
+                                    <a href="#" class="nav-link text-end fs-3 me-3"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="carousel-item">
+                        <div class="row text-center">
+                            <div class="col-lg-4">
+                                <div class="card px-0 mx-auto my-3"
+                                    style="width: 20rem;border-radius:20px;height: 25rem;">
+                                    <img src="{{asset('yep-assets/img/speakers/Conrad KAMARA.jpg')}}"
+                                        class="card-img-top" alt="..." width="100%" height="280"
+                                        style="border-radius: 20px 20px 0 0">
+
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title"><strong>Conrad Kamara</strong></h5>
+                                        <p class="card-subtitle">Speaker</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -512,11 +537,12 @@
                                 <div class="text ms-2">
                                     <span class="text-muted"><i class="fa-regular fa-clock"></i> 09:30 - 10:30</span>
                                     <h4 class="color-blue" style="font-size: 20px;">Opening Ceremony</h4>
-                                    <p><strong>&bull;</strong> Welcome Remarks <br>
-                                    <strong>&bull;</strong> Speech by Her Excellency, the First Lady of Sierra Leone <br>
-                                    <strong>&bull;</strong> Keynote Address by the Honorable Minister of Youth Affairs <br>
-                                    <strong>&bull;</strong> Keynote Address by UNDP Resident Representative in Sierra Leone <br>
-                                    <strong>&bull;</strong> Special Address by Dr. Abdoulie Janneh, Director General and President of AGI Board</p>
+                                    <p>Call to Order and Welcome statement by Permanent Minister of Youth Affairs</p>
+                                    <p><strong>Statements:</strong> <br>
+                                    <strong>&bull;</strong> Special Address by Dr. Abdoulie Janneh, Director General and President of AGI Board. <br>
+                                    <strong>&bull;</strong> UNDP - Resident Representative<br>
+                                    <strong>&bull;</strong> Minister of Youth Affairs<br>
+                                    <strong>&bull;</strong> Keynote Statement - Her Excellency the First Lady of Sierra Leone.</p>
 
                                 </div>
                             </div>
@@ -754,31 +780,42 @@
                     <h1 class="mb-4 mt-2 font-hepidova color-blue">PARTNERS AND SPONSORS </h1>
                 </div>
             </div>
-            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
                 <!-- Exemple de logos -->
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png')}}" class="card-img-top img-fluid logo-img" alt="Logo partenaire 1">
+                        <img src="{{asset('yep-assets/img/Partners Logo/BADEA.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="BADEA">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/BADEAD.png')}}" class="card-img-top img-fluid logo-img" alt="Logo partenaire 2">
+                        <img src="{{asset('yep-assets/img/Partners Logo/Sierra Leone Government Logo.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="Sierra Leone Government Logo">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/MOYA.png')}}" class="card-img-top img-fluid logo-img" alt="Logo partenaire 3">
+                        <img src="{{asset('yep-assets/img/Partners Logo/Office of First Lady - Sierra Leone.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="Office of First Lady - Sierra Leone">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/Orange.png')}}" class="card-img-top img-fluid logo-img" alt="Logo partenaire 4">
+                        <img src="{{asset('yep-assets/img/Partners Logo/MOYA.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="MOYA">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/UNDP - Logo.jpg')}}" class="card-img-top img-fluid logo-img" alt="Logo partenaire 5">
+                        <img src="{{asset('yep-assets/img/Partners Logo/UNDP - Logo.jpg')}}" class="card-img-top img-fluid logo-img"
+                            alt="UNDP">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card border-0 text-center">
+                        <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png*')}}" class="card-img-top img-fluid logo-img"
+                            alt="AGI">
                     </div>
                 </div>
             </div>

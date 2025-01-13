@@ -26,7 +26,7 @@ class ContactController extends Controller
 
         // Envoyer un email
         Mail::raw($validated['message'], function ($mail) use ($validated) {
-            $mail->to('mldiop08@gmail.com')
+            $mail->to('contact@africayep.com')
                 ->subject($validated['subject'])
                 ->from($validated['email'], $validated['name']);
         });

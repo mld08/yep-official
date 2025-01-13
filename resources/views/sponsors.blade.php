@@ -23,7 +23,7 @@
     <div class="header bg-white">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="{{asset('yep-assets/Logo/SVG Files/Logo Horizontal.svg')}}" alt="" width="190">
                 </a>
                 <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
@@ -74,7 +74,7 @@
             <!-- Sponsor 1 -->
             <div class="col-md-6 col-lg-3">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
-                    <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png')}}" alt="AGI Logo" class="sponsor-logo mx-auto">
+                    <img src="{{asset('yep-assets/img/Sponsors/AGI- Sponsors.jpg')}}" alt="AGI Logo" class="sponsor-logo mx-auto">
                     <div class="card-body">
                         <h5 class="card-title">Africa Governance Institute (AGI)</h5>
                         <p class="card-text">Promoting inclusive governance and empowering youth across Africa.</p>
@@ -85,7 +85,7 @@
             <!-- Sponsor 2 -->
             <div class="col-md-6 col-lg-3">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
-                    <img src="{{asset('yep-assets/img/Partners Logo/BADEAD.png')}}" alt="BADEA Logo" class="sponsor-logo mx-auto">
+                    <img src="{{asset('yep-assets/img/Sponsors/AGI- Sponsors.jpg')}}" alt="BADEA Logo" class="sponsor-logo mx-auto">
                     <div class="card-body">
                         <h5 class="card-title">BADEA</h5>
                         <p class="card-text">Driving economic growth and sustainable development in Africa.</p>
@@ -96,7 +96,7 @@
             <!-- Sponsor 3 -->
             <div class="col-md-6 col-lg-3">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
-                    <img src="{{asset('yep-assets/img/Partners Logo/MOYA.png')}}" alt="Ministry of Youth Affairs" class="sponsor-logo mx-auto">
+                    <img src="{{asset('yep-assets/img/Sponsors/MOYA- Sponsors.jpg')}}" alt="Ministry of Youth Affairs" class="sponsor-logo mx-auto">
                     <div class="card-body">
                         <h5 class="card-title">Ministry of Youth Affairs</h5>
                         <p class="card-text">Empowering young people through innovative policies and programs.</p>
@@ -107,7 +107,18 @@
             <!-- Sponsor 4 -->
             <div class="col-md-6 col-lg-3">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
-                    <img src="{{asset('yep-assets/img/Partners Logo/Office of First Lady - Sierra Leone.png')}}" alt="Office of the First Lady" class="sponsor-logo mx-auto">
+                    <img src="{{asset('yep-assets/img/Sponsors/Office First Lady- Sponsors.jpg')}}" alt="Office of the First Lady" class="sponsor-logo mx-auto">
+                    <div class="card-body">
+                        <h5 class="card-title">United Nations Development Programme</h5>
+                        <p class="card-text">Championing education, gender equality, and youth empowerment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sponsor 5 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
+                    <img src="{{asset('yep-assets/img/Sponsors/UNDP- Sponsors.jpg')}}" alt="Office of the First Lady" class="sponsor-logo mx-auto">
                     <div class="card-body">
                         <h5 class="card-title">Office of the First Lady</h5>
                         <p class="card-text">Championing education, gender equality, and youth empowerment.</p>

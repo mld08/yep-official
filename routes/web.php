@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\RegistrationController;
 use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -48,7 +49,7 @@ Route::get('/press-release', function () {
 
 $idRegex = '[0-9]+';
 $slugRegex = '[0-9a-z\-]+';
-Route::get('/news/{slug}-{news}', [NewsController::class, 'show'])->name('show')->where([
+Route::get('/articles/{slug}-{news}', [NewsController::class, 'show'])->name('show')->where([
     'news' => $idRegex,
     'slug' => $slugRegex
 ]);
@@ -61,7 +62,7 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.subm
 
 Route::resource('register', RegistrationController::class)->only('create', 'store');
 
-Route::prefix('admin')->name('admin.')->group(function () {
+Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('/',[AdminController::class,'index'])->name('index');
     Route::resource('registration', RegistrationController::class)->only(['index', 'destroy']);
     Route::resource('contacts', ContactController::class)->only(['index']);
@@ -70,3 +71,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
 });
 
 Route::resource('registration', RegistrationController::class)->only(['create','store']);
+
+Route::get('/login', [AuthController::class, 'login'])->middleware('guest')->name('login');
+Route::post('/login', [AuthController::class, 'doLogin']);
+Route::delete('/logout', [AuthController::class, 'logout'])->middleware('auth')->name('logout');
