@@ -139,7 +139,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card card-hover-one col-lg-12 col-md-12 col-sm-12 py-3 px-3 mx-auto my-3"
-                    style="height: 30rem; background-image: url('{{asset('yep-assets/img/Intro.jpg')}}');background-size: cover;background-position: center;">
+                    style="height: 30rem; background-image: url('{{asset('yep-assets/img/Intro YEP2025.jpg')}}');background-size: cover;background-position: center;">
 
                 </div>
             </div>
@@ -326,7 +326,7 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
+                                    <img src="{{asset('yep-assets/img/speakers/Mohamed Bangura.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
@@ -814,7 +814,7 @@
                 </div>
                 <div class="col-2">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png*')}}" class="card-img-top img-fluid logo-img"
+                        <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png')}}" class="card-img-top img-fluid logo-img"
                             alt="AGI">
                     </div>
                 </div>

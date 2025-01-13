@@ -118,49 +118,55 @@
         </div>
 
         <!-- Partners And Sponsors -->
-        <section class="py-5 mt-5">
-            <div class="container mt-5">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-7 text-center">
-                        <h1 class="mb-4 mt-2 font-hepidova ">PARTNERS AND SPONSORS </h1>
+    <section class="py-5 mt-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 text-center">
+                    <h1 class="mb-4 mt-2 font-hepidova color-blue">PARTNERS AND SPONSORS </h1>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+                <!-- Exemple de logos -->
+                <div class="col">
+                    <div class="card border-0 text-center">
+                        <img src="{{asset('yep-assets/img/Partners Logo/BADEA.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="BADEA">
                     </div>
                 </div>
-                <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 g-4">
-                    <!-- Exemple de logos -->
-                    <div class="col">
-                        <div class="card border-0 text-center">
-                            <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png')}}" class="card-img-top img-fluid logo-img"
-                                alt="Logo partenaire 1">
-                        </div>
+                <div class="col">
+                    <div class="card border-0 text-center">
+                        <img src="{{asset('yep-assets/img/Partners Logo/Sierra Leone Government Logo.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="Sierra Leone Government Logo">
                     </div>
-                    <div class="col">
-                        <div class="card border-0 text-center">
-                            <img src="{{asset('yep-assets/img/Partners Logo/BADEAD.png')}}" class="card-img-top img-fluid logo-img"
-                                alt="Logo partenaire 2">
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 text-center">
+                        <img src="{{asset('yep-assets/img/Partners Logo/Office of First Lady - Sierra Leone.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="Office of First Lady - Sierra Leone">
                     </div>
-                    <div class="col">
-                        <div class="card border-0 text-center">
-                            <img src="{{asset('yep-assets/img/Partners Logo/MOYA.png')}}" class="card-img-top img-fluid logo-img"
-                                alt="Logo partenaire 3">
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 text-center">
+                        <img src="{{asset('yep-assets/img/Partners Logo/MOYA.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="MOYA">
                     </div>
-                    <div class="col">
-                        <div class="card border-0 text-center">
-                            <img src="{{asset('yep-assets/img/Partners Logo/Orange.png')}}" class="card-img-top img-fluid logo-img"
-                                alt="Logo partenaire 4">
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 text-center">
+                        <img src="{{asset('yep-assets/img/Partners Logo/UNDP - Logo.jpg')}}" class="card-img-top img-fluid logo-img"
+                            alt="UNDP">
                     </div>
-                    <div class="col">
-                        <div class="card border-0 text-center">
-                            <img src="{{asset('yep-assets/img/Partners Logo/UNDP - Logo.jpg')}}" class="card-img-top img-fluid logo-img"
-                                alt="Logo partenaire 5">
-                        </div>
+                </div>
+                <div class="col-2">
+                    <div class="card border-0 text-center">
+                        <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="AGI">
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Partners And Sponsors -->
+        </div>
+    </section>
+    <!-- End Partners And Sponsors -->
 
     </div>
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Login 04</title>
+	<title>Youth Empowerment Program | Login</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,7 +11,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" href="{{asset('auth-assets/css/style.css')}}">
-    <link rel="shortcut icon" href="{{asset('yep-assets/Logo/PNG Files/YEP - Logo Alt Transparent.png')}}" type="image/x-icon">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="{{asset('yep-assets/Logo/SVG Files/Favicon.svg')}}" type="image/x-icon">
 
 </head>
 
