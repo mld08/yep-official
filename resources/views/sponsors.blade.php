@@ -71,9 +71,9 @@
             These organizations have played a vital role in supporting and empowering the Youth Entrepreneurship Program.
         </p>
 
-        <div class="row g-4">
+        <div class="row row-cols-3 row-cols-md-2 row-cols-lg-5 g-4">
             <!-- Sponsor 1 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
                     <img src="{{asset('yep-assets/img/Sponsors/AGI- Sponsors.jpg')}}" alt="AGI Logo" class="sponsor-logo mx-auto">
                     <div class="card-body">
@@ -84,7 +84,7 @@
             </div>
 
             <!-- Sponsor 2 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
                     <img src="{{asset('yep-assets/img/Sponsors/BADEA- Sponsors.jpg')}}" alt="BADEA Logo" class="sponsor-logo mx-auto">
                     <div class="card-body">
@@ -95,7 +95,7 @@
             </div>
 
             <!-- Sponsor 3 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
                     <img src="{{asset('yep-assets/img/Sponsors/MOYA- Sponsors.jpg')}}" alt="Ministry of Youth Affairs" class="sponsor-logo mx-auto">
                     <div class="card-body">
@@ -106,7 +106,7 @@
             </div>
 
             <!-- Sponsor 4 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
                     <img src="{{asset('yep-assets/img/Sponsors/Office First Lady- Sponsors.jpg')}}" alt="Office of the First Lady" class="sponsor-logo mx-auto">
                     <div class="card-body">
@@ -117,7 +117,7 @@
             </div>
 
             <!-- Sponsor 5 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col">
                 <div class="card sponsor-card text-center border-0 shadow-sm py-4 h-100">
                     <img src="{{asset('yep-assets/img/Sponsors/UNDP- Sponsors.jpg')}}" alt="Office of the First Lady" class="sponsor-logo mx-auto">
                     <div class="card-body">
@@ -127,6 +127,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- Call-to-Action Section -->

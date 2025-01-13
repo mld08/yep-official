@@ -10,11 +10,11 @@
         content="youth empowerment, Freetown, entrepreneuriat, leadership, Sierra Leone, jeunes innovateurs, youth empowerment program">
     <title>Youth Empowerment Program | Contact</title>
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="{{asset('yep-assets/Logo/SVG Files/Favicon.svg')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('yep-assets/Logo/SVG Files/Favicon.svg') }}" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('yep-assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('yep-assets/css/style.css') }}">
     <script src="https://kit.fontawesome.com/332e91a08f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -25,7 +25,8 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{asset('yep-assets/Logo/SVG Files/Logo Horizontal.svg')}}" alt="" width="190">
+                    <img src="{{ asset('yep-assets/Logo/SVG Files/Logo Horizontal.svg') }}" alt=""
+                        width="190">
                 </a>
                 <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -44,7 +45,8 @@
                         <li class="nav-item"><a href="/gallery" class="nav-link">Gallery</a></li>
                         <li class="nav-item"><a href="/articles" class="nav-link">Articles</a></li>
                         <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                        <li class="nav-item mx-4"><a href="/register/create" class="btn btn-pink px-4">REGISTER!</a></li>
+                        <li class="nav-item mx-4"><a href="/register/create" class="btn btn-pink px-4">REGISTER!</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -94,7 +96,7 @@
                 </p>
             </div>
             <div class="col-lg-8">
-                <form action="{{route('contact.submit')}}" method="POST">
+                <form action="{{ route('contact.submit') }}" method="POST">
                     @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label">Nom</label>
@@ -118,55 +120,49 @@
         </div>
 
         <!-- Partners And Sponsors -->
-    <section class="py-5 mt-5">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center">
-                    <h1 class="mb-4 mt-2 font-hepidova color-blue">PARTNERS AND SPONSORS </h1>
-                </div>
-            </div>
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
-                <!-- Exemple de logos -->
-                <div class="col">
-                    <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/BADEA.png')}}" class="card-img-top img-fluid logo-img"
-                            alt="BADEA">
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-7 text-center">
+                        <h1 class="mb-4 mt-2 font-hepidova color-blue">PARTNERS AND SPONSORS </h1>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/Sierra Leone Government Logo.png')}}" class="card-img-top img-fluid logo-img"
-                            alt="Sierra Leone Government Logo">
+                <div class="row row-cols-3 row-cols-md-2 row-cols-lg-5 g-4">
+                    <!-- Exemple de logos -->
+                    <div class="col">
+                        <div class="card border-0 text-center">
+                            <img src="{{ asset('yep-assets/img/Partners Logo/PNG Files/BADEA.png') }}"
+                                class="card-img-top img-fluid logo-img" alt="BADEA">
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/Office of First Lady - Sierra Leone.png')}}" class="card-img-top img-fluid logo-img"
-                            alt="Office of First Lady - Sierra Leone">
+                    <div class="col">
+                        <div class="card border-0 text-center">
+                            <img src="{{ asset('yep-assets/img/Partners Logo/PNG Files/Government of Sierra Leone.png') }}"
+                                class="card-img-top img-fluid logo-img" alt="BADEA">
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/MOYA.png')}}" class="card-img-top img-fluid logo-img"
-                            alt="MOYA">
+                    <div class="col">
+                        <div class="card border-0 text-center">
+                            <img src="{{ asset('yep-assets/img/Partners Logo/PNG Files/Office of the First Lady.png') }}"
+                                class="card-img-top img-fluid logo-img" alt="Office of First Lady - Sierra Leone">
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/UNDP - Logo.jpg')}}" class="card-img-top img-fluid logo-img"
-                            alt="UNDP">
+                    <div class="col">
+                        <div class="card border-0 text-center">
+                            <img src="{{ asset('yep-assets/img/Partners Logo/PNG Files/UNDP.png') }}"
+                                class="card-img-top img-fluid logo-img" alt="UNDP">
+                        </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png')}}" class="card-img-top img-fluid logo-img"
-                            alt="AGI">
+                    <div class="col">
+                        <div class="card border-0 text-center">
+                            <img src="{{ asset('yep-assets/img/Partners Logo/PNG Files/AGI.png') }}"
+                                class="card-img-top img-fluid logo-img" alt="AGI">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End Partners And Sponsors -->
+        </section>
+        <!-- End Partners And Sponsors -->
 
     </div>
 
@@ -176,7 +172,8 @@
             <div class="row gy-4">
                 <!-- Logo et Réseaux Sociaux -->
                 <div class="col-md-4 text-center text-md-start">
-                    <img src="{{asset('yep-assets/Logo/SVG Files/Logo.svg')}}" alt="Youth Empowerment Program" width="200" class="img-fluid mb-3">
+                    <img src="{{ asset('yep-assets/Logo/SVG Files/Logo.svg') }}" alt="Youth Empowerment Program"
+                        width="200" class="img-fluid mb-3">
                     <div class="d-flex justify-content-center justify-content-md-start gap-3 fs-5">
                         <a class="link-light" href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a class="link-light" href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -189,9 +186,12 @@
                 <div class="col-md-2 text-center text-md-start">
                     <h5 class="fw-bold mb-3">Useful Links</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Programme</a></li>
-                        <li class="nav-item mb-2"><a href="/sponsors" class="nav-link p-0 text-white">Sponsors</a></li>
-                        <li class="nav-item mb-2"><a href="/articles" class="nav-link p-0 text-white">Articles</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Programme</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="/sponsors" class="nav-link p-0 text-white">Sponsors</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="/articles" class="nav-link p-0 text-white">Articles</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -199,9 +199,12 @@
                 <div class="col-md-2 text-center text-md-start">
                     <h5 class="fw-bold mb-3">More Info</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press
+                                Releases</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy
+                                Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
 

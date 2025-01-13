@@ -147,7 +147,7 @@
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Margaret Y. Mansaray</h5>
-                                        <p class="text-muted">Manager</p>
+                                        <p class="text-muted">Founder & CEO of Women in Energy Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-1">
                                             Finalist of the Africa Prize for Engineering Innovation (2023),
                                             founder and CEO of Women in Energy (2020), Margaret Yainkain Mansaray

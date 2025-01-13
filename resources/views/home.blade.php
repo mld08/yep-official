@@ -332,7 +332,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Hon. Mouhamed Bangura</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle" style="font-size: 12px">Minister of Youth Affairs of Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -341,13 +341,13 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
+                                    <img src="{{asset('yep-assets/img/About Images/First Lady.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>H.E. Fatima Maada Bio</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle">First Lady of Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -362,7 +362,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Margaret Y. Mansaray</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle" style="font-size: 12px">Founder & CEO of Women in Energy Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -383,7 +383,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Pa Ousman Njie</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle">Managing Director of Vista Bank Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -393,12 +393,12 @@
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
                                     <img src="{{asset('yep-assets/img/speakers/Emmanuel LAVALIE.jpeg')}}"
-                                        class="card-img-top" alt="..." width="100%" height="280"
+                                        class="card-img-top" alt="..." width="100%" height="260"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Emmanuel Lavalie</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle">Founder & CEO of AMEG</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -413,7 +413,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Fredrick Ampiah</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle">Resident Representative of UNDP Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -434,7 +434,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Francis Stevens Georges</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle">CEO of Innovation SL, Managing Director of GEN - Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -449,7 +449,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Michael Williams</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle" style="font-size: 12px">Founder & CEO of Eco Homes Recycling Limited</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -464,7 +464,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Sadie-Sia C.C Sellu</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle" style="font-size: 10px">Co-Founder & COO of Saint Conrad Company Limited</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -485,7 +485,7 @@
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Conrad Kamara</strong></h5>
-                                        <p class="card-subtitle">Speaker</p>
+                                        <p class="card-subtitle" style="font-size: 10px">Co-Founder & CEO of Saint Conrad Company Limited</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -780,41 +780,35 @@
                     <h1 class="mb-4 mt-2 font-hepidova color-blue">PARTNERS AND SPONSORS </h1>
                 </div>
             </div>
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+            <div class="row row-cols-3 row-cols-md-2 row-cols-lg-5 g-4">
                 <!-- Exemple de logos -->
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/BADEA.png')}}" class="card-img-top img-fluid logo-img"
+                        <img src="{{asset('yep-assets/img/Partners Logo/PNG Files/BADEA.png')}}" class="card-img-top img-fluid logo-img"
                             alt="BADEA">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/Sierra Leone Government Logo.png')}}" class="card-img-top img-fluid logo-img"
-                            alt="Sierra Leone Government Logo">
+                        <img src="{{asset('yep-assets/img/Partners Logo/PNG Files/Government of Sierra Leone.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="BADEA">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/Office of First Lady - Sierra Leone.png')}}" class="card-img-top img-fluid logo-img"
+                        <img src="{{asset('yep-assets/img/Partners Logo/PNG Files/Office of the First Lady.png')}}" class="card-img-top img-fluid logo-img"
                             alt="Office of First Lady - Sierra Leone">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/MOYA.png')}}" class="card-img-top img-fluid logo-img"
-                            alt="MOYA">
+                        <img src="{{asset('yep-assets/img/Partners Logo/PNG Files/UNDP.png')}}" class="card-img-top img-fluid logo-img"
+                            alt="UNDP">
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/UNDP - Logo.jpg')}}" class="card-img-top img-fluid logo-img"
-                            alt="UNDP">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="card border-0 text-center">
-                        <img src="{{asset('yep-assets/img/Partners Logo/AGI - Logo.png')}}" class="card-img-top img-fluid logo-img"
+                        <img src="{{asset('yep-assets/img/Partners Logo/PNG Files/AGI.png')}}" class="card-img-top img-fluid logo-img"
                             alt="AGI">
                     </div>
                 </div>
