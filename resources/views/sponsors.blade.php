@@ -168,7 +168,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-white">Contact Us</a></li>
                     </ul>
                 </div>
 

@@ -46,6 +46,11 @@
                 </ul>
             </div>
         @endif
+        @if(session('error'))
+            <div class="alert alert-danger">
+                {{ session('error') }}
+            </div>
+        @endif
         <form method="POST" action="{{ route('register.store') }}" id="registrationForm">
             @csrf
             <!-- Surname -->

@@ -227,8 +227,8 @@
                     <h5 class="text-white"><strong>Useful Links</strong></h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Programme</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sponsors</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News</a></li>
+                        <li class="nav-item mb-2"><a href="/sponsors" class="nav-link p-0 text-white">Sponsors</a></li>
+                        <li class="nav-item mb-2"><a href="/news" class="nav-link p-0 text-white">News</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-2 mb-4">
@@ -236,7 +236,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-white">Contact Us</a></li>
                     </ul>
                 </div>
 

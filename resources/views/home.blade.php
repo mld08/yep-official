@@ -341,7 +341,7 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="{{asset('yep-assets/img/About Images/First Lady.jpg')}}"
+                                    <img src="{{asset('yep-assets/img/speakers/Fatima Madaa Bio.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
@@ -377,13 +377,13 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
-                                        class="card-img-top" alt="..." width="100%" height="280"
+                                    <img src="{{asset('yep-assets/img/speakers/Pa Ousman Njie.jpg')}}"
+                                        class="card-img-top" alt="..." width="100%" height="260"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Pa Ousman Njie</strong></h5>
-                                        <p class="card-subtitle">Managing Director of Vista Bank Sierra Leone</p>
+                                        <p class="card-subtitle" style="font-size: 12px">Managing Director of Vista Bank Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -407,13 +407,13 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
-                                        class="card-img-top" alt="..." width="100%" height="280"
+                                    <img src="{{asset('yep-assets/img/speakers/Fredrick Ampiah.jpg')}}"
+                                        class="card-img-top" alt="..." width="100%" height="260"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Fredrick Ampiah</strong></h5>
-                                        <p class="card-subtitle">Resident Representative of UNDP Sierra Leone</p>
+                                        <p class="card-subtitle" style="font-size: 10px">Resident Representative of UNDP Sierra Leone</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -428,13 +428,13 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="https://summit.youthconnektafrica.org/wp-content/uploads/2024/10/53136697178_f5b9d55878_o-1.jpg"
+                                    <img src="{{asset('yep-assets/img/speakers/Francis Stevens Georges.jpeg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Francis Stevens Georges</strong></h5>
-                                        <p class="card-subtitle">CEO of Innovation SL, Managing Director of GEN - Sierra Leone</p>
+                                        <p class="card-subtitle" style="font-size: 10px">CEO of Innovation SL, Managing Director of GEN</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
@@ -848,7 +848,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-white">Contact Us</a></li>
                     </ul>
                 </div>
 

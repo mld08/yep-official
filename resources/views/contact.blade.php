@@ -75,22 +75,17 @@
             <div class="col-lg-4">
                 <h4>Contact info</h4>
                 <hr width="50">
-                <p><i class="fa fa-house"></i> Sierra Leone</p>
-                <p><i class="fa fa-phone"></i> 77665544</p>
+                <p>The Youth Empowerment Program is developed by the Africa Governance Institute (AGI) and financed by the BADEA.</p>
                 <p><i class="fa-regular fa-envelope"></i> info@africayep.com</p>
                 <p>
                 <ul class="list-unstyled d-flex justify-content-center justify-content-md-start fs-5">
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i
-                                class="fa-brands fa-facebook"></i></a>
+                    <li class="ms-0"><a class="link-body-emphasis color-blue" href="#"><i class="fa-brands fa-facebook"></i></a>
                     </li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i
-                                class="fa-brands fa-instagram"></i></a>
+                    <li class="ms-3"><a class="link-body-emphasis color-blue" href="#"><i class="fa-brands fa-instagram"></i></a>
                     </li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i
-                                class="fa-brands fa-linkedin"></i></a>
+                    <li class="ms-3"><a class="link-body-emphasis color-blue" href="#"><i class="fa-brands fa-linkedin"></i></a>
                     </li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i
-                                class="fa-brands fa-twitter"></i></a>
+                    <li class="ms-3"><a class="link-body-emphasis color-blue" href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
                     </li>
                 </ul>
                 </p>

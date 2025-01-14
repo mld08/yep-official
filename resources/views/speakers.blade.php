@@ -73,13 +73,13 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="https://via.placeholder.com/450" class="img-fluid rounded-start"
+                                    <img src="{{asset('yep-assets/img/speakers/Fatima Madaa Bio.jpg')}}" class="img-fluid rounded-start"
                                         alt="Fatima Maada Bio">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">H.E. Fatima Maada Bio</h5>
-                                        <p class="text-muted">Speaker</p>
+                                        <p class="text-muted">First Lady of Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-9">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
@@ -108,13 +108,13 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="https://via.placeholder.com/450" class="img-fluid rounded-start"
+                                    <img src="{{asset('yep-assets/img/speakers/Mohamed Bangura.jpg')}}" class="img-fluid rounded-start"
                                         alt="Mary Jane">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Hon. Mohamed Bangura</h5>
-                                        <p class="text-muted">Speaker</p>
+                                        <p class="text-muted">Minister of Youth Affairs of Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-8">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
@@ -185,13 +185,13 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="https://via.placeholder.com/450" class="img-fluid rounded-start"
-                                        alt="Sara Brudt">
+                                    <img src="{{asset('yep-assets/img/speakers/Pa Ousman Njie.jpg')}}" class="img-fluid rounded-start"
+                                        alt="Pa Ousman Njie">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Pa Ousman Njie</h5>
-                                        <p class="text-muted">Speaker</p>
+                                        <p class="text-muted">Managing Director of Vista Bank Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-7">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
@@ -226,7 +226,7 @@
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Emmanuel Lavalie</h5>
-                                        <p class="text-muted">Speaker</p>
+                                        <p class="text-muted">Founder & CEO of Agriculture Multimedia and Entertainment for Growth (AMEG)</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-2">
                                             Founder and executive director at Imperi Foundation for Education
                                             and Agriculture (IFEA) and founder and CEO of Agriculture Multimedia and Entertainment
@@ -258,13 +258,13 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="https://via.placeholder.com/450" class="img-fluid rounded-start"
-                                        alt="Harriet Freeman">
+                                    <img src="{{asset('yep-assets/img/speakers/Fredrick Ampiah.jpg')}}" class="img-fluid rounded-start"
+                                        alt="Fredrick Ampiah">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Fredrick Ampiah</h5>
-                                        <p class="text-muted">Marketing Manager</p>
+                                        <p class="text-muted">Resident Representative of UNDP Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-6">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
@@ -293,13 +293,13 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="https://via.placeholder.com/450" class="img-fluid rounded-start"
-                                        alt="Harriet Freeman">
+                                    <img src="{{asset('yep-assets/img/speakers/Francis Stevens Georges.jpeg')}}" class="img-fluid rounded-start"
+                                        alt="Francis Stevens Georges">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Francis Stevens Georges</h5>
-                                        <p class="text-muted">Speaker</p>
+                                        <p class="text-muted">CEO of Innovation SL, Managing Director of GEN - Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-5">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
@@ -334,7 +334,7 @@
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Michael Williams</h5>
-                                        <p class="text-muted">Speaker</p>
+                                        <p class="text-muted">Founder & CEO of Eco Homes Recycling Limited</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-3">
                                             Sierra Leone has among its brilliant young people Michael Williams a climate
                                             innovator and socio-entrepreneur founder and CEO of “Eco homes recycling Limited”.
@@ -373,7 +373,7 @@
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Sadie-Sia C.C Sellu</h5>
-                                        <p class="text-muted">Marketing Manager</p>
+                                        <p class="text-muted">Co-Founder & COO of Saint Conrad Company Limited</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-4">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
@@ -408,7 +408,7 @@
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Conrad Kamara</h5>
-                                        <p class="text-muted">Speaker</p>
+                                        <p class="text-muted">Co-Founder & CEO of Saint Conrad Company Limited</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-4">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
@@ -469,7 +469,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-white">Contact Us</a></li>
                     </ul>
                 </div>
 

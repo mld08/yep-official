@@ -89,7 +89,7 @@
         <section class="mb-5">
             <div class="row align-items-center">
                 <div class="card card-hover-one col-lg-12 col-md-12 col-sm-12 py-3 px-3 mx-auto my-3"
-                    style="height: 20rem; background-image: url('{{asset('yep-assets/img/About\ Images/UNDP.jpg')}}');background-size: cover;background-position: center;">
+                    style="height: 20rem; background-image: url('{{asset('yep-assets/img/Sponsors/BADEA-\ Sponsors.jpg')}}');background-size: cover;background-position: center;">
 
                 </div>
                 <div class="col-md-6">
@@ -176,7 +176,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-white">Contact Us</a></li>
                     </ul>
                 </div>
 

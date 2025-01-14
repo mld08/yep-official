@@ -42,6 +42,10 @@ class RegistrationController extends Controller
      */
     public function store(Request $request)
     {
+        $registrationCount = Registration::count();
+        if ($registrationCount >= 50) {
+            return redirect()->back()->with('error', 'Sorry, we have reached the maximum number of registrations.');
+        }
         // Validation des données
         $validated = $request->validate([
             'surname' => 'required|string|max:255',
