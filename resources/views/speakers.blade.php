@@ -81,18 +81,18 @@
                                         <h5 class="card-title">H.E. Fatima Maada Bio</h5>
                                         <p class="text-muted">First Lady of Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-9">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                            eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
+                                            Dr. Fatima Maada Bio is the First Lady of the Republic of
+                                            Sierra Leone. She advocates for women, girls and gender equality from the grassroot to the United Nations levels. Her flagship campaign “Hands Off Our Girls” has reduced sexual and gender-based violence (SGVB), early marriage...
                                             </p>
-                                        <p class="card-text d-none" id="full-text-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                                eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
-                                                Sed congue justo et eros fermentum volutpat. Pellentesque sit amet dolor lectus. Duis in tortor eget
-                                                lorem commodo tincidunt nec eu orci. Donec varius nisi lorem, sed cursus felis egestas non.
-                                                Sed suscipit, diam sed mattis feugiat, ante sem hendrerit mauris, ut elementum leo lectus vitae felis.
-                                                Nullam maximus vel mauris ut fringilla. Donec eu lectus pretium, finibus ex ac, blandit purus.
-                                                Duis efficitur risus venenatis faucibus tincidunt. Aenean felis leo, ultricies tempus dui vel,
-                                                cursus fringilla orci. Nullam vestibulum facilisis dapibus. Praesent auctor malesuada velit,
-                                                nec posuere erat. Vivamus eget magna non mauris porta finibus eget in metus. Nulla quis aliquam tellus.</p>
+                                        <p class="card-text d-none" id="full-text-9">Dr. Fatima Maada Bio is the First Lady of the Republic of
+                                            Sierra Leone. She advocates for women, girls and gender equality from the grassroot to the United Nations levels.
+                                            Her flagship campaign “Hands Off Our Girls” has reduced sexual and gender-based violence (SGVB), early marriage,
+                                            teenage pregnancy, and child trafficking. She has increased awareness on HIV and AIDs, cancer,
+                                            and access to justice, as well as provided free sanitary pads for school children.
+                                            In addition, she has championed the adoption of two United Nations resolutions on access to justice for rape
+                                            victims and on the healing and prevention of child sexual exploitation, abuse and violence. Her passion for
+                                            improving healthcare motivated her to reconstruct Sierra Leone’s 34 Military Hospital and upgrade it from a
+                                            70 to 600-bed hospital with a Centre of Excellence (care for SGBV survivors).</p>
                                         <button class="btn btn-link p-0 read-more-btn" data-id="9">Read More</button>
                                         <div>
                                             <a href="#" class="nav-link text-end fs-3 me-3"><i
@@ -116,18 +116,14 @@
                                         <h5 class="card-title">Hon. Mohamed Bangura</h5>
                                         <p class="text-muted">Minister of Youth Affairs of Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-8">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                            eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
+                                            Mr. Mohamed Bangura, Minister of Youth Affairs was born in Magburka town located in the Tonkolili
+                                            District, Northern Sierra Leone. His professional career cuts across several posts held in the banking and mining sectors.
                                             </p>
-                                        <p class="card-text d-none" id="full-text-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                                eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
-                                                Sed congue justo et eros fermentum volutpat. Pellentesque sit amet dolor lectus. Duis in tortor eget
-                                                lorem commodo tincidunt nec eu orci. Donec varius nisi lorem, sed cursus felis egestas non.
-                                                Sed suscipit, diam sed mattis feugiat, ante sem hendrerit mauris, ut elementum leo lectus vitae felis.
-                                                Nullam maximus vel mauris ut fringilla. Donec eu lectus pretium, finibus ex ac, blandit purus.
-                                                Duis efficitur risus venenatis faucibus tincidunt. Aenean felis leo, ultricies tempus dui vel,
-                                                cursus fringilla orci. Nullam vestibulum facilisis dapibus. Praesent auctor malesuada velit,
-                                                nec posuere erat. Vivamus eget magna non mauris porta finibus eget in metus. Nulla quis aliquam tellus.</p>
+                                        <p class="card-text d-none" id="full-text-8">Mr. Mohamed Bangura, Minister of Youth Affairs was born in Magburka town located in the Tonkolili
+                                            District, Northern Sierra Leone. His professional career cuts across several posts held in the banking and mining sectors. For instance,
+                                            he held the position of Compliance Officer at the Standard Chartered Bank and proceeded from there to work for the London Mining Plc as an Accountant.
+                                            He moved on to Total Global Steel Company Ltd. as Finance and Admin Manager. Shortly after the end of Ebola, Mr Bangura joined the non-governmental
+                                            organization, eHealth Africa as Chief Accountant, a position he held until he was appointed as a minister by President Rtd Brigadier Julius Maada Bio in May 2018.</p>
                                         <button class="btn btn-link p-0 read-more-btn" data-id="8">Read More</button>
                                         <div>
                                             <a href="#" class="nav-link text-end fs-3 me-3"><i
@@ -266,18 +262,18 @@
                                         <h5 class="card-title">Fredrick Ampiah</h5>
                                         <p class="text-muted">Resident Representative of UNDP Sierra Leone</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-6">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                            eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
+                                            Fredrick Ampiah is the Resident Representative of the United
+                                            Nations Development Programme (UNDP) in Sierra Leone.Mr. Ampiah has over 28 years development and management
+                                            experience in varied context – fragile  states, post-conflict/conflict countries...
                                             </p>
-                                        <p class="card-text d-none" id="full-text-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                                eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
-                                                Sed congue justo et eros fermentum volutpat. Pellentesque sit amet dolor lectus. Duis in tortor eget
-                                                lorem commodo tincidunt nec eu orci. Donec varius nisi lorem, sed cursus felis egestas non.
-                                                Sed suscipit, diam sed mattis feugiat, ante sem hendrerit mauris, ut elementum leo lectus vitae felis.
-                                                Nullam maximus vel mauris ut fringilla. Donec eu lectus pretium, finibus ex ac, blandit purus.
-                                                Duis efficitur risus venenatis faucibus tincidunt. Aenean felis leo, ultricies tempus dui vel,
-                                                cursus fringilla orci. Nullam vestibulum facilisis dapibus. Praesent auctor malesuada velit,
-                                                nec posuere erat. Vivamus eget magna non mauris porta finibus eget in metus. Nulla quis aliquam tellus.</p>
+                                        <p class="card-text d-none" id="full-text-6">Fredrick Ampiah is the Resident Representative of the United
+                                            Nations Development Programme (UNDP) in Sierra Leone. Mr. Ampiah has over 28 years development and management
+                                            experience in varied context – fragile  states, post-conflict/conflict countries and on a range of thematic
+                                            areas including Democratic Governance, Peace, and Security (Elections, Small Arms and Light Weapons -SALW),
+                                            Sustainable Development (ICTs for development and Technology/Innovation management, Private sector development)
+                                            . He he was the UNDP Regional Coordinator (SALW) for the West and Central Africa Sub-Regional Hub, based in
+                                            Dakar and Regional Project manager of the Organized Crime West Africa Response to Trafficking (OCWART) and the
+                                            Cross-Border Management of Small Arms projects in the ECOWAS region.</p>
                                         <button class="btn btn-link p-0 read-more-btn" data-id="6">Read More</button>
                                         <div>
                                             <a href="#" class="nav-link text-end fs-3 me-3"><i
