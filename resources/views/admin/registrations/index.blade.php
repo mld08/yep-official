@@ -32,7 +32,7 @@
                                             Actions</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="myTable">
                                     @foreach ($registrations as $registration)
                                         <tr>
                                             <td>

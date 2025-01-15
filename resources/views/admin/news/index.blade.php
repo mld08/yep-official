@@ -27,7 +27,7 @@
                                             Actions</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="myTable">
                                     @foreach ($news as $new)
                                         <tr>
                                             <td>

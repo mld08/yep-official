@@ -95,7 +95,7 @@
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
                         <div class="input-group input-group-outline">
                             <label class="form-label">Type here...</label>
-                            <input type="text" class="form-control">
+                            <input id="myInput" type="text" class="form-control">
                         </div>
                     </div>
                     <ul class="navbar-nav d-flex align-items-center  justify-content-end">
@@ -390,6 +390,17 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('admin-assets/js/material-dashboard.min.js?v=3.2.0') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+          });
+        });
+    </script>
 </body>
 
 </html>

@@ -29,7 +29,7 @@
                                             Message</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="myTable">
                                     @foreach ($contacts as $contact)
                                         <tr>
                                             <td>
