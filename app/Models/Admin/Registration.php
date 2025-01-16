@@ -4,6 +4,7 @@ namespace App\Models\Admin;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 class Registration extends Model
 {
@@ -55,5 +56,10 @@ class Registration extends Model
         $registration->save();
 
         return ['message' => 'Token invalidated successfully', 'code' => 200];
+    }
+
+    public function getAgeAttribute()
+    {
+        return Carbon::parse($this->dob)->age;
     }
 }

@@ -20,7 +20,7 @@ class RegistrationController extends Controller
      */
     public function index()
     {
-        return view('admin.registrations.index', ['registrations' => Registration::orderBy('created_at', 'asc')->paginate(25)]);
+        return view('admin.registrations.index', ['registrations' => Registration::orderBy('created_at', 'asc')->paginate(50)]);
     }
 
     /**

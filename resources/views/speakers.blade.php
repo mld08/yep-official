@@ -73,7 +73,7 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="{{asset('yep-assets/img/speakers/Fatima Madaa Bio.jpg')}}" class="img-fluid rounded-start"
+                                    <img src="{{asset('yep-assets/img/speakers/H.E Fatima Maada Bio.jpg')}}" class="img-fluid rounded-start"
                                         alt="Fatima Maada Bio">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
@@ -138,7 +138,7 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="{{asset('yep-assets/img/speakers/Margaret MANSARAY.jpeg')}}" class="img-fluid rounded-start" alt="Margaret Mansaray">
+                                    <img src="{{asset('yep-assets/img/speakers/Margaret Mansaray.jpg')}}" class="img-fluid rounded-start" alt="Margaret Mansaray">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
@@ -216,7 +216,7 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="{{asset('yep-assets/img/speakers/Emmanuel LAVALIE.jpeg')}}" class="img-fluid rounded-start"
+                                    <img src="{{asset('yep-assets/img/speakers/Emmanuel Lavalie.jpg')}}" class="img-fluid rounded-start"
                                         alt="Emmanuel Lavalie">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
@@ -324,7 +324,7 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="{{asset('yep-assets/img/speakers/Michael Williams.jpeg')}}" class="img-fluid rounded-start"
+                                    <img src="{{asset('yep-assets/img/speakers/Michael Williams.jpg')}}" class="img-fluid rounded-start"
                                         alt="Harriet Freeman">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
@@ -363,26 +363,20 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="{{asset('yep-assets/img/speakers/Sadie-Sia SELLU.jpg')}}" class="img-fluid rounded-start"
+                                    <img src="{{asset('yep-assets/img/speakers/Sadie-Sia Sellu.jpg')}}" class="img-fluid rounded-start"
                                         alt="Harriet Freeman">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Sadie-Sia C.C Sellu</h5>
-                                        <p class="text-muted">Co-Founder & COO of Saint Conrad Company Limited</p>
+                                        <p class="text-muted">Co-Founder & CEO of Saint Conrad Company Limited</p>
                                         <p class="card-text" style="overflow: hidden;" id="short-text-4">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                            eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
+                                            Co-founder and CEO of Saint Conrad Company Limited, is a visionary leader with a solid educational background in Geology and a current pursuit of a Master's Degree in Geographical Information Systems.
                                             </p>
-                                        <p class="card-text d-none" id="full-text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
-                                                eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
-                                                Sed congue justo et eros fermentum volutpat. Pellentesque sit amet dolor lectus. Duis in tortor eget
-                                                lorem commodo tincidunt nec eu orci. Donec varius nisi lorem, sed cursus felis egestas non.
-                                                Sed suscipit, diam sed mattis feugiat, ante sem hendrerit mauris, ut elementum leo lectus vitae felis.
-                                                Nullam maximus vel mauris ut fringilla. Donec eu lectus pretium, finibus ex ac, blandit purus.
-                                                Duis efficitur risus venenatis faucibus tincidunt. Aenean felis leo, ultricies tempus dui vel,
-                                                cursus fringilla orci. Nullam vestibulum facilisis dapibus. Praesent auctor malesuada velit,
-                                                nec posuere erat. Vivamus eget magna non mauris porta finibus eget in metus. Nulla quis aliquam tellus.</p>
+                                        <p class="card-text d-none" id="full-text-4">Co-founder and CEO of Saint Conrad Company Limited, is a visionary leader with a solid educational background in Geology and a current pursuit of a Master's Degree in Geographical Information Systems. Beyond her role as CEO, she defines our organizational culture, sets objectives, and charts the strategic direction of our company.
+                                            As a strategic development maestro, Sadie-Sia adapts and refines business strategies through in-depth competitive and market analyses, ensuring our business not only keeps up with industry changes but leads with innovation. Her unique blend of geological expertise and GIS insights positions our company at the forefront of technological advancements.
+                                            Under Sadie-Sia's guidance, our team doesn't just navigate change; we drive it, consistently exceeding expectations in a dynamic market. She embodies foresight, adaptability, and a relentless pursuit of excellence, making her not just a CEO but a visionary architect guiding our team towards continuous success.
+                                            </p>
                                         <button class="btn btn-link p-0 read-more-btn" data-id="4">Read More</button>
                                         <div>
                                             <a href="#" class="nav-link text-end fs-3 me-3"><i
@@ -398,18 +392,46 @@
                         <div class="card h-100 border-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-6">
-                                    <img src="{{asset('yep-assets/img/speakers/Conrad KAMARA.jpg')}}" class="img-fluid rounded-start"
+                                    <img src="{{asset('yep-assets/img/speakers/Conrad Kamara.jpg')}}" class="img-fluid rounded-start"
                                         alt="Harriet Freeman">
                                 </div>
                                 <div class="col-md-6 d-flex align-items-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Conrad Kamara</h5>
-                                        <p class="text-muted">Co-Founder & CEO of Saint Conrad Company Limited</p>
-                                        <p class="card-text" style="overflow: hidden;" id="short-text-4">
+                                        <p class="text-muted">Co-Founder & COO of Saint Conrad Company Limited</p>
+                                        <p class="card-text" style="overflow: hidden;" id="short-text-10">
+                                            Armed with a degree in Logistics and Procurement, complemented by a Master's in Project Management, Conrad orchestrates the daily functions of the company with an unwavering emphasis on operational excellence.
+                                            </p>
+                                        <p class="card-text d-none" id="full-text-10">Armed with a degree in Logistics and Procurement, complemented by a Master's in Project Management, Conrad orchestrates the daily functions of the company with an unwavering emphasis on operational excellence.
+                                            His role goes beyond the conventional; Conrad leads the charge in integrating technology for operational enhancement, ensuring hazard reduction, and meticulous rule adherence. A guardian of compliance, he shapes a secure, innovative, and rule-abiding environment that propels our commitment to excellence forward. Conrad isn't just a leader; he's the force driving our operations to new heights.
+                                            </p>
+                                        <button class="btn btn-link p-0 read-more-btn" data-id="10">Read More</button>
+                                        <div>
+                                            <a href="#" class="nav-link text-end fs-3 me-3"><i
+                                                class="fa-brands fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100 border-0 shadow">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="{{asset('yep-assets/img/speakers/Joseph Turay.jpg')}}" class="img-fluid rounded-start"
+                                        alt="Joseph Turay">
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Joseph Turay</h5>
+                                        <p class="text-muted">Founder & CEO of Route 360 Solutions</p>
+                                        <p class="card-text" style="overflow: hidden;" id="short-text-11">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                             eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
                                             </p>
-                                        <p class="card-text d-none" id="full-text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
+                                        <p class="card-text d-none" id="full-text-11">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna eu nisl volutpat faucibus et
                                                 eu elit. Aenean et tellus nunc. Mauris volutpat nibh quis neque tincidunt, at malesuada velit lobortis.
                                                 Sed congue justo et eros fermentum volutpat. Pellentesque sit amet dolor lectus. Duis in tortor eget
                                                 lorem commodo tincidunt nec eu orci. Donec varius nisi lorem, sed cursus felis egestas non.
@@ -418,7 +440,7 @@
                                                 Duis efficitur risus venenatis faucibus tincidunt. Aenean felis leo, ultricies tempus dui vel,
                                                 cursus fringilla orci. Nullam vestibulum facilisis dapibus. Praesent auctor malesuada velit,
                                                 nec posuere erat. Vivamus eget magna non mauris porta finibus eget in metus. Nulla quis aliquam tellus.</p>
-                                        <button class="btn btn-link p-0 read-more-btn" data-id="4">Read More</button>
+                                        <button class="btn btn-link p-0 read-more-btn" data-id="11">Read More</button>
                                         <div>
                                             <a href="#" class="nav-link text-end fs-3 me-3"><i
                                                 class="fa-brands fa-linkedin"></i></a>
@@ -494,6 +516,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="{{asset('yep-assets/js/backtotop.js')}}"></script>
+    <script src="{{asset('yep-assets/js/read-more.js')}}"></script>
 </body>
 
 </html>

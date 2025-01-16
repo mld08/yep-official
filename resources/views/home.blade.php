@@ -341,7 +341,7 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="{{asset('yep-assets/img/speakers/Fatima Madaa Bio.jpg')}}"
+                                    <img src="{{asset('yep-assets/img/speakers/H.E Fatima Maada Bio.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
@@ -356,7 +356,7 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="{{asset('yep-assets/img/speakers/Margaret MANSARAY.jpeg')}}"
+                                    <img src="{{asset('yep-assets/img/speakers/Margaret Mansaray.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
@@ -392,7 +392,7 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="{{asset('yep-assets/img/speakers/Emmanuel LAVALIE.jpeg')}}"
+                                    <img src="{{asset('yep-assets/img/speakers/Emmanuel Lavalie.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="260"
                                         style="border-radius: 20px 20px 0 0">
 
@@ -443,7 +443,7 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="{{asset('yep-assets/img/speakers/Michael Williams.jpeg')}}"
+                                    <img src="{{asset('yep-assets/img/speakers/Michael Williams.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
@@ -458,7 +458,7 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="{{asset('yep-assets/img/speakers/Sadie-Sia SELLU.jpg')}}"
+                                    <img src="{{asset('yep-assets/img/speakers/Sadie-Sia Sellu.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
@@ -479,13 +479,28 @@
                             <div class="col-lg-4">
                                 <div class="card px-0 mx-auto my-3"
                                     style="width: 20rem;border-radius:20px;height: 25rem;">
-                                    <img src="{{asset('yep-assets/img/speakers/Conrad KAMARA.jpg')}}"
+                                    <img src="{{asset('yep-assets/img/speakers/Conrad Kamara.jpg')}}"
                                         class="card-img-top" alt="..." width="100%" height="280"
                                         style="border-radius: 20px 20px 0 0">
 
                                     <div class="card-body text-start">
                                         <h5 class="card-title"><strong>Conrad Kamara</strong></h5>
                                         <p class="card-subtitle" style="font-size: 10px">Co-Founder & CEO of Saint Conrad Company Limited</p>
+                                    </div>
+                                    <a href="#" class="nav-link text-end fs-3 me-3"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card px-0 mx-auto my-3"
+                                    style="width: 20rem;border-radius:20px;height: 25rem;">
+                                    <img src="{{asset('yep-assets/img/speakers/Joseph Turay.jpg')}}"
+                                        class="card-img-top" alt="..." width="100%" height="280"
+                                        style="border-radius: 20px 20px 0 0">
+
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title"><strong>Joseph Turay</strong></h5>
+                                        <p class="card-subtitle" style="font-size: 13px">Founder & CEO of Route 360 Solutions</p>
                                     </div>
                                     <a href="#" class="nav-link text-end fs-3 me-3"><i
                                             class="fa-brands fa-linkedin"></i></a>
