@@ -53,6 +53,7 @@
         @endif
         <form method="POST" action="{{ route('register.store') }}" id="registrationForm">
             @csrf
+            @method("POST")
             <!-- Surname -->
             <div class="mb-3">
                 <label for="surname" class="form-label">Surname <span class="text-danger">*</span></label>
@@ -108,7 +109,7 @@
             </div>
             <!-- Submit Button -->
             <div class="text-center">
-                <button type="submit" class="my-3 btn btn-blue">Submit</button>
+                <button id="submit_button" type="submit" class="my-3 btn btn-blue">Submit</button>
             </div>
         </form>
     </div>

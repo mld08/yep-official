@@ -44,7 +44,7 @@
                         <li class="nav-item"><a href="/gallery" class="nav-link">Gallery</a></li>
                         <li class="nav-item"><a href="/articles" class="nav-link">Articles</a></li>
                         <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                        <li class="nav-item mx-4"><a href="/register/create" class="btn btn-pink px-4">REGISTER!</a></li>
+                        <li class="nav-item mx-4"><a href="#" class="btn btn-pink px-4">REGISTER!</a></li>
                     </ul>
                 </div>
             </div>

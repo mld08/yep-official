@@ -60,7 +60,7 @@ Route::get('/gallery', [GalleryController::class,'gallery'])->name('gallery');
 Route::get('/contact', [ContactController::class, 'create'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.submit');
 
-Route::resource('register', RegistrationController::class)->only('create', 'store');
+//Route::resource('register', RegistrationController::class)->only('create', 'store');
 
 Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('/',[AdminController::class,'index'])->name('index');
@@ -69,8 +69,6 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::resource('news', NewsController::class)->except(['show', 'news']);
     Route::resource('gallery', GalleryController::class)->except(['show', 'gallery', 'edit', 'update']);
 });
-
-Route::resource('registration', RegistrationController::class)->only(['create','store']);
 
 Route::get('/login', [AuthController::class, 'login'])->middleware('guest')->name('login');
 Route::post('/login', [AuthController::class, 'doLogin']);

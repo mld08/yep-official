@@ -44,7 +44,7 @@
                         <li class="nav-item"><a href="/gallery" class="nav-link">Gallery</a></li>
                         <li class="nav-item"><a href="/articles" class="nav-link">Articles</a></li>
                         <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                        <li class="nav-item mx-4"><a href="/register/create" class="btn btn-pink px-4">REGISTER!</a></li>
+                        <li class="nav-item mx-4"><a href="#" class="btn btn-pink px-4">REGISTER!</a></li>
                     </ul>
                 </div>
             </div>
@@ -74,31 +74,31 @@
                 <div class="row justify-content-center">
                     <!-- Bloc Jours -->
                     <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
-                        <div class="value" id="days"></div>
+                        <div class="value" id="days">00</div>
                         <div class="label">Days</div>
                     </div>
 
                     <!-- Bloc Heures -->
                     <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
-                        <div class="value" id="hours"></div>
+                        <div class="value" id="hours">00</div>
                         <div class="label">Hours</div>
                     </div>
 
                     <!-- Bloc Minutes -->
                     <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
-                        <div class="value" id="minutes"></div>
+                        <div class="value" id="minutes">00</div>
                         <div class="label">Minutes</div>
                     </div>
 
                     <!-- Bloc Secondes -->
                     <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
-                        <div class="value" id="seconds"></div>
+                        <div class="value" id="seconds">00</div>
                         <div class="label">Seconds</div>
                     </div>
                 </div>
             </div>
 
-            <a href="/register/create" class="btn btn-register mt-3 hero-content-2">Register Today !</a>
+            <a href="{{asset('yep-assets/pdf/YEP Sierra Leone 2025 - Programme.pdf')}}" class="btn btn-register mt-3 hero-content-2">DOWNLOAD PROGRAM</a>
         </div>
 
     </div>
@@ -889,7 +889,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-    <script src="{{asset('yep-assets/js/countdown.js')}}"></script>
+    <!--<script src="{{asset('yep-assets/js/countdown.js')}}"></script>-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="{{asset('yep-assets/js/backtotop.js')}}"></script>
